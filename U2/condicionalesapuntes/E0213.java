@@ -48,7 +48,7 @@ public class E0213 {
             }
         }
 
-  
+
         System.out.print("La hora siguiente es: ");
         System.out.print(horas);
         System.out.print(":");
