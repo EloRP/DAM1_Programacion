@@ -16,7 +16,7 @@ byte D = 74;
 byte M = 125;
 int N = 123;
 byte N2 = 12;
-int N3 = 1234;
+//int N3 = 1234;
 
 /* 1 */
 System.out.print("1. El doble de un número N: ");

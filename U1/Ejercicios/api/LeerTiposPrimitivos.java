@@ -27,7 +27,6 @@ public class LeerTiposPrimitivos {
         System.out.print("Escribir un carácter:");
         varChar = sc.next().charAt (0);
         System.out.println("Has introducido el carácter " + varChar);
-        sc = new Scanner (System.in);
 
         String varString;
         System.out.print("Escribe una frase: ");
@@ -39,6 +38,6 @@ public class LeerTiposPrimitivos {
         varBoolean = sc.nextBoolean();
         System.out.println("Has introducido la respuesta " + varBoolean);
 
-
+        sc.close();
     }
 }

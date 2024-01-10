@@ -7,9 +7,9 @@ public class E0212 {
 
     public static void main(String[] args) {
     // Declaración de variables y constantes
-    int dia, mes, anho;
+    int dia, mes;
     boolean fechaCorrecta = true;
-        
+
     // Entrada de datos
     Scanner sc = new Scanner(System.in);
     System.out.println("Introduce el día del mes (1-31): ");
@@ -17,7 +17,8 @@ public class E0212 {
     System.out.println("Introduce el número de mes (1-12): ");
     mes = sc.nextInt();
     System.out.println("Introduce el año: ");
-    anho = sc.nextInt();
+    //int anho;
+    //anho = sc.nextInt();
     sc.close();
     // Proceso
     switch (mes) {

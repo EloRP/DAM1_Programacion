@@ -17,6 +17,8 @@ public class EP0120 {
             
         // Salida
         System.out.println("Raíz cuadrada: " + raiz);
+
+        entrada.close();
     }
     
     

@@ -15,7 +15,7 @@ class Hora {
         if (hora > 0 && hora < 24) {
             this.hora = hora;
         } else {
-            System.out.println("Error. La hora no es válida.");;
+            System.out.println("Error. La hora no es válida.");
         }
     }
 

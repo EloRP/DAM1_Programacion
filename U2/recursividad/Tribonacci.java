@@ -15,7 +15,7 @@ public class Tribonacci {
     public static int tribonacci(int n) {
         if (n == 0) { // si n es igual a 1 y n es igual a 0 devuelve 1 al no poder restar negativos
         return 0;
-        } else if (n == 1 || n ==2) {
+        } else if (n == 1 || n == 2) {
         return 1;
         } else {
             return tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3);

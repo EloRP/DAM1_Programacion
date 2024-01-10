@@ -8,11 +8,9 @@ public class Galibo {
         int alturaMaxima = 800;
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce los datos de gálibo para calcular la altura máxima del vehículo: ");
-
         System.out.println("Número de puentes: ");
         numPuentes = leerNumeroEntre(1, 100);
         for (int i = 0; i < numPuentes; i++) {
-
             System.out.println("Número de carriles del puente: " + i + ":");
             int numCarriles = leerNumeroEntre(1, 5);
             int maxGaliboPuente = 200;
@@ -29,7 +27,6 @@ public class Galibo {
             sc.close();
         }
     }
-
     static int leerNumeroEntre(int min, int max) {
         Scanner sc = new Scanner(System.in);
         int n;

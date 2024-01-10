@@ -8,7 +8,7 @@ public class Identificadores {
   public static void main(String[] args) {
     
   
-   final String numeroDeTelefono = "+34666666";
+ /*final String numeroDeTelefono = "+34666666";
    float totalVentas = 1340f;
    String miNombre = "Eloy";
    boolean young4ever = true;

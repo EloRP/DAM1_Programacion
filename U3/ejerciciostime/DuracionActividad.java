@@ -9,21 +9,32 @@ import java.time.LocalTime;
 Desarrolla una aplicación que calcule la duración total de una actividad. La actividad tiene una hora de inicio (LocalTime) y una hora de finalización (LocalTime). El programa debe mostrar la duración total en horas y minutos.
  */
 
+import java.time.LocalTime;
+import java.time.Duration;
+
 public class DuracionActividad {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+private LocalTime horaInicio;
+private LocalTime horaFin;
 
-        //Hora de inicio
-        System.out.println("Introduce la hora de inicio");
-        String horaInicioString = sc.next();
-        LocalTime horaInicio = LocalTime.parse(horaInicioString);
+public DuracionActividad(LocalTime horaInicio, LocalTime horaFin) {
+this.horaInicio = horaInicio;
+this.horaFin = horaFin;
+}
 
-        //Hora finalización
-        System.out.println("Introduce la hora de finalización");
-        String horaFinString = sc.next();
-        LocalTime horaFin = LocalTime.parse(horaFinString);
+public void calcularDuracion() {
+Duration duracion = Duration.between(horaInicio, horaFin);
+long horas = duracion.toHours();
+long minutos = duracion.toMinutesPart();
 
-        //Cálculo de la duración
-        
-    }
-    }
+System.out.println("Duración total: " + horas + " horas y " + minutos + " minutos.");
+}
+
+public static void main(String[] args) {
+// Ejemplo de uso
+LocalTime horaInicio = LocalTime.of(9, 30); // Hora de inicio
+LocalTime horaFin = LocalTime.of(12, 45); // Hora de finalización
+
+DuracionActividad actividad = new DuracionActividad(horaInicio, horaFin);
+actividad.calcularDuracion();
+}
+}

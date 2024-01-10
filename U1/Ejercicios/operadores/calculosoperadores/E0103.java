@@ -1,23 +1,22 @@
 package calculosoperadores;
 
-
 import java.util.Scanner;
 
-public class E0103{;
-public static void main(String[] args) {
-     Scanner sc = new Scanner(System.in);
-    
-     byte edad;
+public class E0103 {
+     ;
+     public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
 
-     System.out.print("¿Cuántos años tienes?");
+          byte edad;
 
-     edad = sc.nextByte();   
+          System.out.print("¿Cuántos años tienes?");
 
-     byte año = 1;
-     int nueva_edad = (edad + año);
-     System.out.println("Si tienes "  + edad +  " años, entonces el año que viene tendrás " + nueva_edad );
+          edad = sc.nextByte();
 
-     sc.close();
+          byte año = 1;
+          int nueva_edad = (edad + año);
+          System.out.println("Si tienes " + edad + " años, entonces el año que viene tendrás " + nueva_edad);
+
+          sc.close();
      }
 }
-

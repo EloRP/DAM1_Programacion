@@ -23,8 +23,8 @@ public class Circulo {
         sc.close();
     }
 
-    private static String volumenEsfera(double radio){
-        return null;
+    private static double volumenEsfera(double radio){
+        return 4 / 3.0 * Math.PI * Math.pow(radio, 3);
     }
 
     private static double perimetroCirculo(double radio) {

@@ -19,3 +19,4 @@ public class CosteViaje {
         return costeViaje(km, tipoCombustible, consumoMedio);
     }
 }
+

@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /*
-ClaseMath. Escribe un programa que genere y muestre un número aleatorio con decimales en el rango de -360 a 360 utilizando Math.random(). 
+ClaseMath. Escribe un programa que genere y muestre un número aleatorio con decimales en el rango de -360 a 360 utilizando Math.random().
 A continuación realizará y mostrará los siguientes cálculos:
 su raíz cuadrada utilizando el método Math.sqrt().
 el número redondeado a la cifra entera más cercana utilizando Math.round().

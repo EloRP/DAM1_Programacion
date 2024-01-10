@@ -20,7 +20,7 @@ public class ViajeCompartido {
         System.out.println("¿Cuál es el consumo medio de tu vehículo? (Litros de combustible o kWh de electricidad)");
         double consumoMedio = sc.nextDouble();
         System.out.println("El viaje desde " + salida + " con destino " + destino + " , que recorre " + km + " km, con "
-                + plazas + " pasajeros costará: " + costeViaje(km, tipoCombustible, consumoMedio) + "euros.");
+        + plazas + " pasajeros costará: " + costeViaje(km, tipoCombustible, consumoMedio) + "euros.");
         sc.close();
     }
 
