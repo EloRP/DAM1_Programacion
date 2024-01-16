@@ -19,11 +19,20 @@ public class Persona {
 
     }
 
+    
+
+    @Override
+    public String toString() {
+        return nombre.toString();
+    }
+
+
+
     Persona (String nombre){
         this.nombre = nombre;
     }
 
-    Persona (String nombre, String dni){
+    public Persona (String nombre, String dni){
         this.nombre = nombre;
         this.dni = dni;
     }

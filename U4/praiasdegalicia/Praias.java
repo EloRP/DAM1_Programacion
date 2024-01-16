@@ -1,39 +1,32 @@
 package praiasdegalicia;
 
-public class Praia {
+public class Praias {
     private int id;
     private String nome;
     private String concello;
     private String provincia;
     private double lat;
     private double lon;
-    
 
-    public String getUrlPrediccionMeteogalicia(){
+    public String getUrlPrediccionMeteogalicia() {
         return "https://servizos.meteogalicia.gal/mgrss/predicion/jsonPredPraia.action?idPraia=" + id;
     }
 
-
-
-
-
-
-
-    public Praia() {
+    public Praias() {
     }
 
-    public Praia (int id) {
+    public Praias(int id) {
         this.id = id;
     }
 
-    public Praia(int id, String nome, String concello, String provincia) {
+    public Praias(int id, String nome, String concello, String provincia) {
         this.id = id;
         this.nome = nome;
         this.concello = concello;
         this.provincia = provincia;
     }
 
-    public Praia(int id, String nome, String concello, String provincia, double lat, double lon) {
+    public Praias(int id, String nome, String concello, String provincia, double lat, double lon) {
         this.id = id;
         this.nome = nome;
         this.concello = concello;
@@ -90,5 +83,4 @@ public class Praia {
         this.lon = lon;
     }
 
-    
 }

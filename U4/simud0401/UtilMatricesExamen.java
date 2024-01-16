@@ -1,4 +1,4 @@
-package arraysejercicios;
+package simud0401;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -9,12 +9,7 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-public class UtilMatrices {
-    public static void main(String[] args) {
-        int t[][] = { { 3, 3, 3 }, { 0, 3, 3 }, { 0, 0, 3 } };
-
-    }
-
+public class UtilMatricesExamen {
     public static Boolean esMatrizValida(int[][] t) {
         return t != null && t.length > 0 && t[0].length > 0;
     }
@@ -88,11 +83,11 @@ public class UtilMatrices {
         Boolean res = null;
 
         if (esCuadrada(t)) {
-            int[][] traspuesta = UtilMatrices.traspuesta(t);
+            int[][] traspuesta = UtilMatricesExamen.traspuesta(t);
 
-            int[][] tProducto = UtilMatrices.productoMatricial(t, traspuesta);
+            int[][] tProducto = UtilMatricesExamen.productoMatricial(t, traspuesta);
 
-            int[][] tIdentidad = UtilMatrices.matrizIdentidad(t.length);
+            int[][] tIdentidad = UtilMatricesExamen.matrizIdentidad(t.length);
 
             res = Arrays.deepEquals(tProducto, tIdentidad);
 
