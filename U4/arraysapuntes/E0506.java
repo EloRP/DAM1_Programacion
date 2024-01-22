@@ -52,3 +52,24 @@ public class E0506 {
         return t;
     }
 }
+
+/*
+ * static int numAciertos(int[] apuesta, int[] ganadora) {
+ * int contador = 0;
+ * 
+ * /*
+ * 
+ * for(int num : apuesta)
+ * if(Arrays.binarySearch(ganadora, num) >= 0)
+ * contador++;
+ */
+/*
+ * for (int j = 0; j < apuesta.length; j++) {
+ * if (apuesta[i] == ganadora[j]) {
+ * contador++;
+ * }
+ * }
+ * }
+ * return contador;
+ * }
+ */
