@@ -1,4 +1,3 @@
 # DAM1_Programacion-Private
 
-ELOY ESTO ES POR SI LA CAGAS
-ESTÁN TUS COSAS ONLINE
+Programas realizados durante el primer curso de DAM. 2023-2024.
