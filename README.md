@@ -1,3 +1,6 @@
 # DAM1_Programacion
 
-Programas realizados para la asignatura de programación durante el primer curso de DAM. 2023-2024.
+Programas realizados para el módulo de programación durante el primer curso de DAM. 
+
+Programs coded for the "Programming" module during the first year of CPAP.
+2023-2024.
