@@ -1,4 +1,4 @@
-package herenciaejercicios;
+package herenciaejercicios.EP0811;
 
 import herenciaapuntes.Instrumento;
 
