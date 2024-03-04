@@ -15,9 +15,18 @@ public class Conjunto_profe {
 
     boolean insertar(Integer nuevo) {
         boolean insertar = true;
+<<<<<<< HEAD
         for (int i = 0; i < conjunto.length && insertar; i++) {
             if (conjunto[i] == nuevo)
                 insertar = false;
+=======
+        int i = 0;
+        while (i < conjunto.length && insertar) {
+            if (conjunto[i] == nuevo)
+                insertar = false;
+            else
+                i++;
+>>>>>>> 73d699ba6d5aa192eee90eb122825ee785c6b696
         }
 
         if (insertar) {

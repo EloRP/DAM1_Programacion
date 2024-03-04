@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73d699ba6d5aa192eee90eb122825ee785c6b696
 package interfacesejercicios.EP0915;
 
 import java.util.Scanner;
