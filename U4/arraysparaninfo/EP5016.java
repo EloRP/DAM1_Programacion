@@ -5,16 +5,6 @@ import java.util.*;
 public class EP5016 {
 
     public static void main(String[] args) {
-        /*
-         * PROBLEMA DE GRAFOS
-         *
-         * SOLUCIÓN A: Añadir una estructura que recuerde los lugares visitados y que
-         * se irá actualizando a lo largo de toda la pila de llamadas.
-         * Se pasa de una llamada a otra como un 4º parámetro.
-         * Se puede eliminar este 4º parámetro cun una versión sobrecargada del método
-         * para
-         * la primera llamada.
-         */
         int mapa[][] = {
                 { 0, 1, 0, 0, 0 },
                 { 0, 0, 1, 1, 1 },

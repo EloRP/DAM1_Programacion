@@ -29,6 +29,7 @@ public class E0509Prof {
             // Mostrar todos ordenados
             Arrays.sort(puntuaciones);
             System.out.println(Arrays.toString(puntuaciones));
+            sc.close();
         }
     }
 }

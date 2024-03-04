@@ -5,9 +5,6 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class AppAgenda {
     static Persona[] agenda;
 

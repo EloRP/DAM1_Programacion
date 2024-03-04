@@ -5,7 +5,7 @@ public class EP0611 {
         char[] conjunto1 = { 'e', 'i', 'k', 'm', 'p', 'q', 'r', 's', 't', 'u', 'v' };
         char[] conjunto2 = "pviumterkqs".toCharArray();
 
-        String palabra = "Guebos";
+        String palabra = "Prueba";
 
         String palabraCodificada = codifica(conjunto1, conjunto2, palabra);
 

@@ -31,6 +31,8 @@ public class EjArrays11 {
             } while (columna >= 0 && columna <= 2);
 
             tablero[fila][columna] = 'X';
+            sc.close();
+
             return tablero;
         }
 
@@ -53,7 +55,9 @@ public class EjArrays11 {
                 }
             } while (columna >= 0 && columna <= 2);
             tablero[fila][columna] = 'O';
+            sc.close();
             return tablero;
+
         }
     }
 }

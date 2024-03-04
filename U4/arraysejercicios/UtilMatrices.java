@@ -11,8 +11,6 @@ import org.junit.jupiter.api.Test;
 
 public class UtilMatrices {
     public static void main(String[] args) {
-        int t[][] = { { 3, 3, 3 }, { 0, 3, 3 }, { 0, 0, 3 } };
-
     }
 
     public static Boolean esMatrizValida(int[][] t) {

@@ -2,7 +2,7 @@ package arraysparaninfo;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/* SIN TERMINAR */
 /*
 * EP0519. Diseña una aplicación para gestionar la llegada a meta de los participantes de una carrera. Cada uno de ellos dispone de un dorsal (un número entero) que los identifica.
 *En la aplicación se introduce el número de dorsal de cada corredor cuando éste llega a la meta.

@@ -5,29 +5,32 @@ import java.util.Scanner;
 
 public class E0509 {
     public static void main(String[] args) {
-        //Leer y almacenar puntuación de 5 programadores
-        Scanner sc = new Scanner (System.in);
+        // Leer y almacenar puntuación de 5 programadores
+        Scanner sc = new Scanner(System.in);
 
         int[] puntuacionesPro = new int[5];
         for (int i = 0; i < 5; i++) {
-            System.out.println("Introduce la puntuación del programador " + (i+1));
+            System.out.println("Introduce la puntuación del programador " + (i + 1));
             puntuacionesPro[i] = sc.nextInt();
         }
-        //Mostrar puntuaciones ordenadas
-
-        //Añadir puntuaciones de programadores de exhibición, hasta introducir -1
+        // Mostrar puntuaciones ordenadas
+        Arrays.sort(puntuacionesPro);
+        System.out.println(Arrays.toString(puntuacionesPro));
+        // Añadir puntuaciones de programadores de exhibición, hasta introducir -1
         while (true) {
-            
-        System.out.println("Introduce los valores de las puntuaciones de los programadores de exhibición: ");
-        int puntuacionExhibicion = sc.nextInt();
-        if (puntuacionExhibicion == -1) {
-            break;
-        } else {
-            puntuacionesPro = Arrays.copyOf(puntuacionesPro, puntuacionExhibicion);
-            puntuacionesPro[puntuacionesPro.length - 1] = puntuacionExhibicion;
+
+            System.out.println("Introduce los valores de las puntuaciones de los programadores de exhibición: ");
+            int puntuacionExhibicion = sc.nextInt();
+            if (puntuacionExhibicion == -1) {
+                break;
+            } else {
+                puntuacionesPro = Arrays.copyOf(puntuacionesPro, puntuacionExhibicion);
+                puntuacionesPro[puntuacionesPro.length - 1] = puntuacionExhibicion;
+            }
         }
-        }
-        //Mostrar todos ordenados
+        // Mostrar todos ordenados
+
+        sc.close();
     }
 
     static void insertarOrdenado(int[] t, int valor) {

@@ -45,6 +45,7 @@ public class E0511 {
                     combinacionOK = false;
                 }
             }
+            sc.close();
             if (Arrays.equals(combinacion, combUsuario)) {
                 System.out.println("Enhorabuena, has acertado la combinación secreta!!");
             }

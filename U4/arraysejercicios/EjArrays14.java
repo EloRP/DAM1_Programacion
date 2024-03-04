@@ -2,7 +2,6 @@ package arraysejercicios;
 
 public class EjArrays14 {
     
-/* */
 
     public static Boolean esMatriz(int [][] t){
         return t != null && t.length > 0 && t[0].length > 0;
