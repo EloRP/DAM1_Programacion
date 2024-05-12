@@ -18,7 +18,7 @@ public class E1301 {
 
         System.out.println(saludoCliente.saludar(cliente));
 
-        String[] nombres = { "Pepa", "Pepe", "Juan" };
+        String[] nombres = {"Pepa", "Pepe", "Juan"};
 
         System.out.println(saludar(nombres, n -> "¿Cómo estás, " + n + "?"));
 
