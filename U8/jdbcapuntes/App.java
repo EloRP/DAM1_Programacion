@@ -1,5 +1,3 @@
-package U8.jdbcapuntes;
-
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
